@@ -1,5 +1,5 @@
 :root {
-  --primary-color: blue;
+  --primary-color: rgb(56, 56, 243);
 }
 body {
   margin: 0;
@@ -15,7 +15,7 @@ ul {
   padding: 0;
 }
 section {
-  padding: 5em 2em;
+  padding: 2em 2em;
 }
 .navbar {
   background: #fff;
@@ -46,12 +46,57 @@ section {
 }
 .hero {
   text-align: center;
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+  }
 }
 .left-col {
+  margin-bottom: 2rem;
+  .container {
+    display: flex;
+  }
+
   .subhead {
     text-transform: uppercase;
-    font-weight: bold;
+
+    font-weight: 700;
     color: gray;
     letter-spacing: 0.3em;
+  }
+  h1 {
+    text-transform: capitalize;
+
+    font-weight: 900;
+    color: black;
+    font-size: 3rem;
+    line-height: 1;
+  }
+  .primary-cta {
+    background-color: var(--primary-color);
+    padding: 1rem 1.24rem;
+    color: white;
+    border-radius: 23px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  .watch-video-cta {
+    color: rgb(88, 86, 86);
+    padding-left: 10px;
+  }
+  .watch-video-cta img {
+    padding-right: 10px;
+  }
+}
+.features-section {
+  background-color: rgb(51, 51, 65);
+  ul li {
+    text-transform: capitalize;
+    color: white;
+    font-size: 1.35rem;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 10px;
   }
 }
