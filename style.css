@@ -146,3 +146,20 @@ ul.features-list {
     }
   }
 }
+h2 {
+  font-size: 2em;
+}
+label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 0, 5em;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border-radius: 0.3em;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
